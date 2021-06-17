@@ -218,7 +218,7 @@ module.exports = () => {
           },
           {
             from: './src/static',
-            to: 'static',
+            to: '',
           },
         ],
       }),
