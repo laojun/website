@@ -38,7 +38,7 @@ const MyRoute = (props: IProps) => {
       const reg = pathToRegexp(item.path);
       return reg.test(props.location.pathname);
     });
-    document.title = findResult?.title || 'Erda Cloud';
+//     document.title = findResult?.title || 'Erda Cloud';
   }, [props.routeList, props.location.pathname]);
   return (
     <Switch>
