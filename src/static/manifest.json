@@ -1,17 +1,25 @@
 {
-  "short_name": "Erda Cloud",
-  "name": "Erda Cloud Site",
-  "description": "Erda official site powered by terminus",
+  "short_name": "Terminus.io",
+  "name": "Terminus.io",
   "icons": [
     {
-      "src": "/static/favicon.ico",
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
       "type": "image/png",
-      "sizes": "200x200"
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
-  "start_url": "/",
-  "background_color": "#5d48df",
-  "display": "fullscreen",
-  "scope": "/",
-  "theme_color": "#5d48df"
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
