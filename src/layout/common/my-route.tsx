@@ -16,6 +16,7 @@ import React from 'react';
 import { Route, Switch, withRouter } from 'react-router-dom';
 import { pathToRegexp } from 'path-to-regexp';
 import { Location } from 'interface/common';
+import i18n from '~/i18n';
 
 interface IProps {
   location: Location;
