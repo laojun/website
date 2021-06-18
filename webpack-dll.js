@@ -39,7 +39,7 @@ module.exports = {
   // },
   plugins: [
     new webpack.DllPlugin({
-      path: path.join(__dirname, 'public/manifest.json'),
+      path: path.join(__dirname, 'public/static/manifest.json'),
       name: '[name]_[hash]',
       context: __dirname,
     }),
